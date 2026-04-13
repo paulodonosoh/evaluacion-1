@@ -107,11 +107,73 @@ footer p {
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+#perros li img {
+  flex-shrink: 0;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+#perros li div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
 }
 
 #perros li:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Atributos personalizados para elementos de lista */
+.nombre {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #2c3e50;
+}
+
+.raza {
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+.edad {
+  background-color: #3498db;
+  color: white;
+  padding: 4px 16px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  display: inline-block;
+}
+
+.descripcion {
+  color: #555;
+  line-height: 1.5;
+}
+
+.estado {
+  padding: 6px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 0.85em;
+  display: inline-block;
+}
+
+.estado.disponible {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.estado.adoptado {
+  background-color: #e74c3c;
+  color: white;
 }
 
 /* Responsive */

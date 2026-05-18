@@ -1,0 +1,36 @@
+/* Estilos para validación de formularios */
+.form-error {
+  border: 2px solid #e74c3c;
+  background-color: #fff5f5;
+}
+
+.form-success {
+  border: 2px solid #2ecc71;
+  background-color: #f4fff7;
+}
+
+.field-error {
+  color: #e74c3c;
+  font-size: 0.9rem;
+  margin-top: 4px;
+  display: block;
+}
+
+.form-message {
+  margin-top: 16px;
+  padding: 12px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.form-message.error {
+  background-color: #fdecea;
+  color: #c0392b;
+  border: 1px solid #e6b8b7;
+}
+
+.form-message.success {
+  background-color: #eafaf1;
+  color: #1e8449;
+  border: 1px solid #bde5c8;
+}

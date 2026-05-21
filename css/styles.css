@@ -10,6 +10,7 @@ body {
   line-height: 1.6;
   color: #333;
   background-color: #f4f4f4;
+  padding-top: 60px;
 }
 
 /* Contenedor principal */
@@ -37,6 +38,11 @@ header h1 {
 nav {
   background-color: #34495e;
   padding: 10px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -197,6 +203,19 @@ footer p {
   outline: none;
   border-color: #3498db;
   box-shadow: 0 0 8px rgba(52, 152, 219, 0.3);
+}
+
+/* Sección de Contacto */
+.contact-info {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 1em;
 }
 
 /* Responsive */

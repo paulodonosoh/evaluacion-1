@@ -27,6 +27,55 @@ const perros = [
     edad: 1,
     descripcion: "Bella es juguetona, curiosa y llena de energía. A pesar de su tamaño pequeño, tiene una gran personalidad. Es ideal para familias que disfrutan de un perro activo y divertido.",
     imagen: "img/bella.jpg"
+  },
+  {
+    nombre: "Charlie",
+    raza: "Bulldog Francés",
+    edad: 2,
+    descripcion: "Charlie es un perro pequeño pero con un gran corazón. Es muy cariñoso, tranquilo y perfecto para apartamentos. Le encanta acurrucarse junto a su familia.",
+    imagen: "img/charlie.jpg"
+  },
+  {
+    nombre: "Daisy",
+    raza: "Cocker Spaniel",
+    edad: 5,
+    descripcion: "Daisy es una perrita dulce y gentil que adora la compañía humana. Es excelente con niños y otros perros. Le encanta jugar en parques y playas.",
+    imagen: "img/daisy.jpg"
+  },
+  {
+    nombre: "Rex",
+    raza: "Doberman Pinscher",
+    edad: 3,
+    descripcion: "Rex es elegante, leal y muy protector. Requiere un dueño con experiencia que pueda proporcionarle disciplina y ejercicio regular. Es un excelente perro de guarda.",
+    imagen: "img/rex.jpg"
+  },
+  {
+    nombre: "Sophie",
+    raza: "Pug",
+    edad: 2,
+    descripcion: "Sophie es una perrita pequeña, cariñosa y juguetona. Le encanta la atención y es ideal para personas mayores o familias que buscan un compañero pequeño y afectuoso.",
+    imagen: "img/sophie.jpg"
+  },
+  {
+    nombre: "Bruno",
+    raza: "Rottweiler",
+    edad: 4,
+    descripcion: "Bruno es un perro grande, fuerte y muy leal. A pesar de su apariencia intimidante, es gentil y cariñoso con su familia. Necesita un dueño firme y responsable.",
+    imagen: "img/bruno.jpg"
+  },
+  {
+    nombre: "Mila",
+    raza: "Husky Siberiano",
+    edad: 2,
+    descripcion: "Mila es energética, inteligente y aventurera. Adora el frío y le encanta correr y jugar. Es perfecta para personas activas que disfruten de actividades al aire libre.",
+    imagen: "img/mila.jpg"
+  },
+  {
+    nombre: "Oscar",
+    raza: "Pug",
+    edad: 3,
+    descripcion: "Oscar es un perro pequeño, adorable y muy divertido. Tiene una gran personalidad a pesar de su tamaño. Le encanta estar cerca de su familia y dormir cómodamente.",
+    imagen: "img/oscar.jpg"
   }
 ];
 

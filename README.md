@@ -63,7 +63,7 @@ mediante expresiones regulares valida los siguientes campos
 se crea la rama "buscador"
 
 promp principal 
-mediante un arreglo de objetos que incluya los atributos: nombre, raza, edad y descripcion genera la estructura para un buscador de los perros que esten dentro del arreglo, ademas modifica el archivo index.html par que en la seccion id="perros" muestre la informacion  de los perros extrayendola de este arreglo
+mediante un arreglo de objetos que incluya los atributos: nombre, raza, edad y descripcion genera la estructura para un buscador de los perros que esten dentro del arreglo mediante su nombre o raza, ademas modifica el archivo index.html par que en la seccion id="perros" muestre la informacion  de los perros extrayendola de este arreglo
 
 notamos que el la funcionalidad del buscador se creo en el archivo validation.js por lo que para un mejor diseño y aplicacion de modularidad lo separamos en un archivo diferente llamado buscador.js y actualizamos el main.js para para importar y usar las funciones de buscador.js, ademas actualizamos index.html para cargar buscador.js antes de main.js ya que desde el arreglo creado en buscador renderizaremos y mostraremos los perros, esto ultimo permite agregar o quitar perros del arreglo sin tener que modificar el archivo index.html lo que facilita la mantenibilidad del codigo
 
@@ -91,4 +91,5 @@ ademaas se agregaron estilos para el boton de favoritos y el filtro de solo favo
 
 finalmete se agregan las fotos faltantes y se realizan testeos finales para que la pagina funcione correctamente
 los formularoios se validan correctaemnte
-se se pueden marcar favoritos y filtrar solo los favoritos incluso aunque la pagina se actualice
+se se pueden marcar favoritos y filtrar solo los favoritos incluso aunque se actualice la pagina o se cierre el navegador
+el buscador permite correctamente buscar perros por nombre o raza y renderiza la lista de perros filtrada en tiempo real

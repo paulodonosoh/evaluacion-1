@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopta un Perro</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/validation.css">
 </head>
 <body>
     <header>
@@ -60,7 +61,7 @@
         <section id="proceso">
             <h2>Proceso de Adopción</h2>
             <p>Para adoptar un perro dejanos tus datos y nos pondremos en contacto :</p>
-            <form>
+            <form id="adoption-form" novalidate>
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
                 
@@ -75,6 +76,7 @@
                 
                 <button type="submit">Enviar Solicitud</button>
             </form>
+            <div id="form-message" class="form-message" aria-live="polite"></div>
             
         </section>
     </main>
@@ -83,5 +85,9 @@
         <p>&copy; 2024 Adopta un Perro. Todos los derechos reservados.</p>
         <p>Contacto: info@adoptaperro.com</p>
     </footer>
+
+    <script src="js/validation.js" defer></script>
+    <script src="js/formHandlers.js" defer></script>
+    <script src="js/main.js" defer></script>
 </body>
 </html>

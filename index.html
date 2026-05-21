@@ -33,6 +33,12 @@
             <div class="buscar-perros">
                 <input type="text" id="buscador-perros" placeholder="Buscar por nombre o raza..." class="input-buscar">
             </div>
+            <div class="filtro-favoritos">
+                <label>
+                    <input type="checkbox" id="filtro-solo-favoritos">
+                    Mostrar solo favoritos
+                </label>
+            </div>
             <ul>
             </ul>
         </section>
@@ -70,11 +76,14 @@
             </div>
         </section>
 
+    </main>
+
     <footer>
         <p>&copy; 2024 Adopta un Perro. Todos los derechos reservados.</p>
         <p>Contacto: info@adoptaperro.com</p>
     </footer>
 
+    <script src="js/favoritos.js" defer></script>
     <script src="js/buscador.js" defer></script>
     <script src="js/validation.js" defer></script>
     <script src="js/formHandlers.js" defer></script>

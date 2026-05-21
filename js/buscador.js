@@ -106,11 +106,16 @@ function renderizarPerros(perrosAMostrar = perros) {
   }
   
   perrosAMostrar.forEach(perro => {
+    const favoritoActivo = typeof esFavorito === "function" && esFavorito(perro.nombre);
+    const claseFavorito = favoritoActivo ? "btn-favorito activo" : "btn-favorito";
+    const textoFavorito = favoritoActivo ? "★ Favorito" : "☆ Marcar favorito";
+
     const item = document.createElement("li");
     item.innerHTML = `
       <img src="${perro.imagen}" alt="${perro.nombre}">
       <div class="atributos">
         <strong>${perro.nombre}</strong> - Raza: ${perro.raza} - Edad: ${perro.edad} años
+        <button type="button" class="${claseFavorito}" data-nombre="${perro.nombre}">${textoFavorito}</button>
       </div>
       <p class="descripcion">${perro.descripcion}</p>
     `;
